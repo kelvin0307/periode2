@@ -1,0 +1,345 @@
+:root {
+    --headerColor: #000000;
+    --secondaryColor1: #14705A;
+    --background: #CCEDE5;
+    --headerText: rgb(231, 231, 22);
+    --whiteColor: white;
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--headerColor);
+}
+
+header .logoBox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .logoBox img {
+    width: 45px;
+    margin-left: 20px;
+}
+
+nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li a {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--headerText);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    width: 10vw;
+    height: 12vh;
+    background-color: var(--headerColor);
+    transition: 0.5s;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+
+#mainContent {
+    width: 100%;
+    height: 100%;
+}
+
+/* Home */
+
+.homeContainer {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeContainer .logoContainer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.homeContainer .logoContainer .logoBox {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainer .logoContainer .logoBox img {
+    width: 210px;
+}
+
+.homeContainer .textContainer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeContainer .textContainer .textBox {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeContainer .textContainer .textBox img {
+    width: 700px;
+}
+
+/* Team */
+
+.teamContainer {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.teamContainer .textContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamContainer .textContainer .textBox {
+    width: 80%;
+    height: 80%;
+}
+
+.teamContainer .textContainer .textBox .teamHeader {
+    width: 100%;
+    height: 20%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: var(--headerText);
+}
+
+.teamContainer .textContainer .textBox .teamInfo {
+    width: 100%;
+    height: 80%;
+    color: var(--whiteColor);
+}
+
+.teamContainer .imgContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamContainer .imgContainer .imgBox {
+    width: 56%;
+    height: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColor);
+}
+
+.teamContainer .imgContainer .imgBox img {
+    width: 352px;
+}
+
+/* Robot */
+
+.robotContainer {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.robotContainer .textContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robotContainer .textContainer .textBox {
+    width: 80%;
+    height: 80%;
+}
+
+.robotContainer .textContainer .textBox .teamHeader {
+    width: 100%;
+    height: 20%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: var(--headerText);
+}
+
+.robotContainer .textContainer .textBox .teamInfo {
+    width: 100%;
+    height: 80%;
+    color: var(--whiteColor);
+}
+
+.robotContainer .imgContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robotContainer .imgContainer .imgBox {
+    width: 56%;
+    height: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColor);
+}
+
+.robotContainer .imgContainer .imgBox img {
+    width: 352px;
+}
+
+
+
+/* Behind */
+
+
+.behindContainer {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .question h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: yellow;
+    margin-top: 20px;
+  }
+
+  .feedContainer {
+      height: 70%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .instagram_feed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 30px;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .instagram_feed div {
+    display: flex;
+    flex: 1;    
+    white-space: nowrap;
+    width: 30%;
+  }
+  
+  .instagram_feed a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .instagram_feed img {
+    display: block;
+    width: 80%;
+  }
+
+  .feedUser{
+      height: 10%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      color: var(--whiteColor);
+  }
