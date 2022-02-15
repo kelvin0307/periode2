@@ -68,5 +68,11 @@ $(document).ready(function(){
         }
         return false
     })
+    
+    $('header nav ul .dropdown .dropdown-content a').click(function(){
+      var page = $(this).attr('href');
+      $('#mainContent').load('content/' + page + '.html');
+      return false
+  })
 });
 
