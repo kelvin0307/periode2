@@ -139,7 +139,7 @@ main {
 .homeContainer {
     width: 100%;
     height: 100%;
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -189,7 +189,7 @@ main {
 .teamContainer {
     width: 100%;
     height: 100%;
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -218,10 +218,23 @@ main {
     color: var(--headerText);
 }
 
+.teamContainer .textContainer .textBox table {
+    width: 100%;
+    height: 10%;
+}
+
+.teamContainer .textContainer .textBox table tr td {
+    width: 50%;
+    height: 50%;
+    color: var(--whiteColor);
+    padding-top: 10px;
+}
+
 .teamContainer .textContainer .textBox .teamInfo {
     width: 100%;
-    height: 80%;
+    height: 70%;
     color: var(--whiteColor);
+    padding-top: 20px;
 }
 
 .teamContainer .imgContainer {
@@ -233,8 +246,8 @@ main {
 }
 
 .teamContainer .imgContainer .imgBox {
-    width: 56%;
-    height: 87%;
+    width: 360px;
+    height: 476px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +263,7 @@ main {
 .robotContainer {
     width: 100%;
     height: 100%;
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -294,8 +307,8 @@ main {
 }
 
 .robotContainer .imgContainer .imgBox {
-    width: 56%;
-    height: 87%;
+    width: 360px;
+    height: 476px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,7 +327,7 @@ main {
 .behindContainer {
     height: 100%;
     width: 100%;
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
 }
