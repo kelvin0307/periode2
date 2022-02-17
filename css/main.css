@@ -242,14 +242,9 @@ main {
     color: var(--headerText);
 }
 
-.teamContainer .textContainer .textBox table {
+.teamContainer .textContainer .textBox .education {
     width: 100%;
     height: 10%;
-}
-
-.teamContainer .textContainer .textBox table tr td {
-    width: 50%;
-    height: 50%;
     color: var(--whiteColor);
     padding-top: 10px;
 }
@@ -296,6 +291,34 @@ main {
 
 #team {
     background-image: url(https://images.unsplash.com/photo-1519309621146-2a47d1f7103a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHRlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+#daan {
+    background-image: url(https://images.unsplash.com/photo-1505807557511-bc38492556a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGxlYXZlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#kelvin {
+    background-image: url(https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2F0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+#diego {
+    background-image: url(https://images.unsplash.com/photo-1575881875475-31023242e3f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#sem {
+    background-image: url(https://images.unsplash.com/photo-1561141370-ae9079d542a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGdyYXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#zara {
+    background-image: url(https://images.unsplash.com/photo-1597611902475-b05a17deb7d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHRodW5kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+#benthe {
+    background-image: url(https://images.unsplash.com/photo-1603124117373-f287851e93b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+#ivan {
+    background-image: url(https://images.unsplash.com/photo-1615114814213-a245ffc79e9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZpcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
 }
 
 .robotContainer .textContainer {
